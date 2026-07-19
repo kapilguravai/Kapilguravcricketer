@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kapil Gurav | Maharashtra Under-19 Cricketer</title>
+
+<link rel="stylesheet" href="cric.css">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f4f4;
+color:#333;
+}
+
+header{
+background:#0d47a1;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#1565c0;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:white;
+}
+
+.hero img{
+width:180px;
+height:180px;
+border-radius:50%;
+border:5px solid #1565c0;
+object-fit:cover;
+}
+
+.hero h1{
+margin-top:20px;
+font-size:40px;
+}
+
+.hero p{
+margin-top:10px;
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 30px;
+background:#1565c0;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+section{
+padding:50px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+h2{
+color:#0d47a1;
+margin-bottom:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin-top:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:10px;
+}
+
+footer{
+background:#0d47a1;
+color:white;
+padding:20px;
+text-align:center;
+margin-top:40px;
+}
+
+button{
+padding:12px 25px;
+background:#1565c0;
+border:none;
+color:white;
+border-radius:5px;
+cursor:pointer;
+margin-top:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Kapil Gurav</h1>
+<p>Maharashtra Under-19 Cricketer | All Rounder</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#achievement">Achievements</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+
+<img src="https://i.ibb.co/xKMYDfx8/IMG-20260719-164707.jpg" alt="Kapil Gurav">
+<h1>KAPIL GURAV</h1>
+<h2>Welcome</h2>
+
+<p>Professional Cricketer from Maharashtra</p>
+
+<a class="btn" href="#contact">Contact Me</a>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="card">
+
+<p>
+
+Hello! I am <b>Kapil Gurav</b>, a passionate cricketer from Maharashtra.
+
+I have represented Maharashtra Under-19 and continue playing competitive cricket while creating sports and fitness content.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="achievement">
+
+<h2>Achievements</h2>
+
+<div class="card">
+
+<ul>
+
+<li>Represented Maharashtra Under-19</li>
+
+<li>College Cricket Team Captain</li>
+
+<li>District Level Cricket Player</li>
+
+<li>Competitive Tournament Performer</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2>Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://i.ibb.co/5xksKHcB/Picsart-26-04-06-18-08-21-487.jpg">
+
+<img src="https://i.ibb.co/B51skWDj/Picsart-26-01-25-16-21-23-587.jpg">
+
+<img src="https://i.ibb.co/GfMVTW7m/Picsart-25-11-11-07-49-20-455.jpg">
+
+<img src="https://i.ibb.co/LzHGdH3j/RIYAN-20260407-162044-i-Phone-Effect-by-smitcapture.jpg">
+
+<img src="https://i.ibb.co/x8FLpcRx/Picsart-25-02-11-10-14-44-716.jpg">
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="card">
+
+<p>Email : kapiilgurav1182@gmail.com</p>
+
+<p>Instagram : @kapilgurav</p>
+
+<p>YouTube : Kapil Gurav Vlogs</p>
+
+<button onclick="showMessage()">Say Hello</button>
+
+<p id="msg"></p>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Kapil Gurav | All Rights Reserved.
+
+</footer>
+
+<script>
+
+function showMessage(){
+
+document.getElementById("msg").innerHTML="Thanks for visiting my website!";
+
+}
+
+</script>
+
+</body>
+</html>
